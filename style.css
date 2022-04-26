@@ -1,0 +1,69 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+.navbar{
+    display: flex;
+    height: 80px;
+    margin: auto;
+    background-color: rgb(19, 19, 19);
+   
+}
+.nav{
+    margin: auto;
+}
+.list {
+    display: flex;
+    list-style: none;
+    font-size: medium;
+   
+
+}
+.list li {
+    margin: auto 50px;
+   
+}
+.atag {
+    text-decoration: none;
+    color: aliceblue;
+    padding: 10px;
+   
+}
+.atag:hover {
+    color: black;
+    background-color: aqua;
+    border-radius: 10px;
+}
+.atag:active{
+   background-color: blue;
+}
+.searchbox{
+    margin: auto;
+   
+}
+.search{
+    height: 25px;
+    border-radius: 5px;
+}
+.btn {
+     width: 65px;
+     margin: 0px 5px;
+     border-radius: 5px; 
+     background-color: black;
+     color: white;
+}
+.btn:hover{
+   background-color: aqua;
+   color: black;
+   padding: 5px;
+   border-radius: 10px;
+}
+.log{
+    margin: auto;
+    
+}
+.img1{
+    height: 75px
+    
+
+}
