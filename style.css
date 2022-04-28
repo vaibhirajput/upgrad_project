@@ -2,68 +2,101 @@
   margin: 0px;
   padding: 0px;
 }
+       /* Navbar list elements */
 .navbar{
     display: flex;
     height: 80px;
-    margin: auto;
-    background-color: rgb(19, 19, 19);
-   
+    background-color: white;
+    opacity: 0.90;
 }
 .nav{
-    margin: auto;
+    margin:auto 0px;
+    /* border: 2px solid black; */
 }
-.list {
+
+.list{
     display: flex;
+    margin: auto 40px;
     list-style: none;
-    font-size: medium;
-   
+}
+.list li{
+    margin: 0px 50px;
+}
+.list li a{
+    text-decoration: none;
+    padding: 10px 10px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+.list li a:hover{
+    background-color: rgb(17, 218, 208);
+    color: rgb(0, 0, 0);
+    border-radius: 3px;
+}
+     /* Search box */
+.searchbox{
+    margin: auto 20px auto 100px;
 
 }
-.list li {
-    margin: auto 50px;
-   
+.btn{
+    height: 30px;
+    padding: 5px;
+    background-color:rgb(17, 218, 208); 
+    margin: auto 3px;
+    font-weight: bold;
+
 }
-.atag {
-    text-decoration: none;
-    color: aliceblue;
-    padding: 10px;
-   
-}
-.atag:hover {
-    color: black;
-    background-color: aqua;
-    border-radius: 10px;
-}
-.atag:active{
-   background-color: blue;
-}
-.searchbox{
-    margin: auto;
-   
+.btn:hover{
+    background-color: rgb(17, 218, 208);
+    color:rgb(0, 0, 0);
+    border-radius: 3px;
 }
 .search{
     height: 25px;
     border-radius: 5px;
 }
-.btn {
-     width: 65px;
-     margin: 0px 5px;
-     border-radius: 5px; 
-     background-color: black;
-     color: white;
+     /* log Image  */
+.log_img{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 80px;
+    /* border: 2px solid black; */
+    background-color: rgb(17, 218, 208);
+    color: rgb(0, 0, 0);
+   justify-content: center;
+   text-align: center;
+   font-weight: bold;
 }
-.btn:hover{
-   background-color: aqua;
-   color: black;
-   padding: 5px;
-   border-radius: 10px;
-}
-.log{
-    margin: auto;
-    
-}
-.img1{
-    height: 75px
-    
 
+#log{
+    height: 75px;
+   
 }
+   /* Header Image */
+.head_img{
+    display: flex;
+    color: white;
+    background: url(image/ad1.png) no-repeat center center/cover;
+    width: 100%;
+    height: 350px;
+    /* border: 2px solid red; */
+    
+}
+.headline{
+    width: 50%;
+    margin: auto 100px;
+    font-weight: bold;
+    /* border: 2px solid white; */
+}
+
+
+/* .head_img ::before{
+    content: "";
+    position: absolute;
+    background: url(image/ad1.png) no-repeat center center/cover;
+    width: 100%;
+    height: 350px;
+    z-index: -1;
+
+} */
