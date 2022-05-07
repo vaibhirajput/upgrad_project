@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="phone.css">
 </head>
 
 <body>
@@ -18,18 +19,15 @@
             <p>The fitness guru</p>
         </div>
         <div class="nav">
-
+            
             <ul class="list">
                 <li><a href="https://www.google.com" target="_blank"> Home</a></li>
                 <li><a href="#"> About</a></li>
                 <li><a href="#"> Blog</a></li>
             </ul>
-        </div>
+            <span onclick="myfunction" class="burger">&#9776;</span>
 
 
-        <div class="searchbox">
-            <input class="search" type="search" name="search" id="">
-            <button class="btn"> Search</button>
         </div>
 
     </div>
@@ -41,23 +39,25 @@
                 ratione quia velit sed ipsum cumque recusandae.</p>
         </div>
     </div>
-    <div class="features">
-        <div class="featurebox" id="featurebox1">
-            <img class="gympic2" src="image/gym2.jpg" alt="">
-            <h2>Exercies</h2>
+    <div class="slide_line">
+        <h1> Categories</h1>
+    </div>
 
+    <div class="slider-box">
+        <div id="slider">
+            <img src="images/slide1.jpg" alt="">
+            <img src="images/slide2.jpg" alt="">
+            <img src="images/slide3.jpg" alt="">
+            <img src="images/slide4.jpg" alt="">
         </div>
-        <div class="featurebox" id="featurebox2">
-            <img class="gympic" src="image/food.jpg" alt="">
-            <h2>Diet</h2>
-
-
-        </div>
-        <div class="featurebox" id="featurebox3">
-            <img class="supplment" src="image/supplment.jpg" alt="">
-            <h2>Supplyment</h2>
+        <div class="indicators">
+            <span id="btn1" class="active"></span>
+            <span id="btn2"></span>
+            <span id="btn3"></span>
+            <span id="btn4"></span>
         </div>
     </div>
+    
     <div class="videoo">
         <div class="videoline">
             <h1>Believe In Yourself</h1>
@@ -71,10 +71,9 @@
     <div class="artical">
 
         <div class="wordlines">
-            <div class="fitness">
-                <h1>We Have Certified Fitness Experts</h1>
-            </div>
+           
             <div class=" fitness_type">
+                <h1>We Have Certified Fitness Experts</h1>
 
                 <ul>
                     <li>Weightlefing</li>
@@ -88,7 +87,7 @@
         </div>
 
         <div class="wordpic">
-            <img src="image/istockphoto-1138386337-612x612.jpg" alt="">
+            <img class="wordpics" src="image/istockphoto-1138386337-612x612.jpg" alt="">
         </div>
     </div>
     <div class="bookline">
@@ -127,8 +126,7 @@
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam assumenda numquam facere officia
                     rerum! Doloribus tempore iure deserunt natus neque eius consequuntur ratione unde dignissimos, nam
                     quo fugit, ipsum necessitatibus!</p>
-                    <br>
-                    <br>
+                <br>
 
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat eaque molestias voluptatibus
                     delectus, rem voluptatem quam est, at sit quos non! Sint labore perferendis amet illum similique,
