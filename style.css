@@ -2,6 +2,7 @@
     margin: 0px;
     padding: 0px;
     font-size: 62.5%;
+    font-family: 'Ubuntu', sans-serif;
 
 }
 
@@ -53,14 +54,6 @@ body {
     border-radius: 3px;
 }
 
-/* Search box */
-/* .searchbox {
-    /* margin: auto 20px auto 100px; */
-/* margin-right: 20px;
-    overflow: hidden;
-
-} */
-
 .btn {
     height: 30px;
     padding: 5px;
@@ -71,19 +64,6 @@ body {
     font-weight: bold;
 
 }
-
-/* .btn:hover {
-    background-color: aqua;
-    color: rgb(0, 0, 0);
-    border-radius: 3px;
-} */
-
-/* .search {
-    height: 25px;
-    border-radius: 5px;
-    font-size: 1.5rem;
-    overflow: hidden;
-} */
 
 /* log Image  */
 .log_img {
@@ -134,7 +114,8 @@ body {
 .headline:hover {
     color: white;
 }
-.slide_line{
+
+.slide_line {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -150,7 +131,7 @@ body {
     height: 60vh;
     /* max-height: 80vh; */
     /* border: 2px solid black; */
-    box-shadow: -5px -4px 10px 5px aqua;
+    box-shadow: -1px -1px 5px 10px aqua;
     position: relative;
     overflow: hidden;
     margin: 50px auto;
@@ -195,46 +176,6 @@ body {
     height: 350px;
     z-index: -1;
 
-} 
-/* .features {
-    display: flex;
-    width: 100vw;
-    margin: 40px 0px;
-    height: 50vh;
-    border: 20px soild rgb(197, 36, 36);
-    align-items: center;
-    justify-content: center;
-    background-color: rgb(54, 79, 161); 
-} */
-
-/* .featurebox {
-
-    width: 25%;
-    height: auto;
-    padding: 10px;
-    font-size: 3.5rem;
-    /* border: 2px solid black; 
-    margin: 0px 5px;
-
-} */
-
-/* #featurebox1 {
-    background-color: aqua;
-    border-radius: 20px;
-    text-align: center;
-} */
-
-/* #featurebox2 {
-    background-color: gray;
-    border-radius: 20px;
-    text-align: center;
-} */
-
-/* #featurebox3 {
-    background-color: black;
-    border-radius: 20px;
-    color: white;
-    text-align: center;
 } */
 
 .gympic {
@@ -446,11 +387,11 @@ body {
     position: absolute;
     width: 50vw;
     height: 55vh;
-    background: url(image/ABSTRACT_BACKGROUND_01.jpg) no-repeat center center/cover;
+    background: url(image/svg.webp) no-repeat center center/cover;
     border-radius: 10px;
     box-shadow: 5px 6px 5px 5px black;
     z-index: -1;
-    /* opacity: 0.5; */
+    opacity: 0.2;
     overflow: hidden;
     /* color: white; */
 
@@ -461,7 +402,8 @@ body {
     /* border: 2px solid black; */
     text-align: center;
     /* margin: auto; */
-    color: #f0f8ff;
+    color: rgb(0, 0, 0);
+    opacity: 1;
     font-size: 3.5rem;
 }
 
@@ -470,7 +412,7 @@ body {
     width: 40vw;
     /* text-align: justify; */
     /* font-size: 100%; */
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 2.5rem;
 }
 
