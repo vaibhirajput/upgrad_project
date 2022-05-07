@@ -5,9 +5,9 @@
 
 }
 
-@media only screen and (  max-width:1350px  ) {
-    htnl {
-        font-size: 48%;
+@media only screen and (  max-width:1400px  ) {
+    html {
+        font-size: 62.5%;
     }
 
     .fitness_type {
@@ -42,9 +42,9 @@
 }
 
 
-@media only screen and (max-width:1150px) {
+@media only screen and (max-width:1280px) {
     html {
-        font-size: 45%;
+        font-size: 50%;
     }
 
     /* .burger {
@@ -91,9 +91,9 @@
 
 
 }
-@media only screen and (max-width:900px) {
+@media only screen and (max-width:1015px) {
     htnl {
-        font-size: 40%;
+        font-size: 45%;
     }
 
     .fitness_type {
@@ -126,9 +126,9 @@
 
 
 }
-@media only screen and (max-width:700px) {
+@media only screen and (max-width:800px) {
     htnl {
-        font-size: 40%;
+        font-size: 42%;
     }
 
     .fitness_type {
